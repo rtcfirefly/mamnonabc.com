@@ -1,6 +1,6 @@
 title: mamnonabc.com
 description: >-
    mamnonabc.com
-remote_theme: pages-themes/hacker@v0.2.0
+remote_theme:  andrewbanchich/forty-jekyll-theme@59d5238af57e741f441e83e41ce3ec52e95a30ca
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
