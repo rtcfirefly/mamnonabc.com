@@ -1,6 +1,42 @@
+# site settings
 title: mamnonabc.com
 description: >-
    mamnonabc.com
+subtitle: by HTML5 UP
+email: youremailaddress@gmail.com
+baseurl: "/_posts" # the subpath of your site, e.g. /blog
+url: https://mamnonabc.com
+author:
+street_address: Lô 2 Đ. 23 Tháng 10, Vĩnh Hiệp, Nha Trang, Khánh Hòa 650000 
+city: 
+state: 
+zip_code: 
+country: Vietnam
+phone: +842583891072
+
+# homepage tiles
+tiles-source: pages # accepts "posts" or "pages"
+tiles-count: 6
+
+socials:
+  Instagram: 
+  LinkedIn: https://www.linkedin.com/in/andrew-banchich-a4ba1195
+  Twitter: https://twitter.com/truongmamnonabc
+  Facebook: https://www.facebook.com/truongmamnonabc
+  Slack:
+
+# build settings
+markdown: kramdown
+
+sass:
+  style: compressed
+
+exclude:
+- "*.gemspec"
+- LICENSE.md
+- CONTRIBUTING.md
+- README.md 
+ 
 remote_theme:  andrewbanchich/forty-jekyll-theme@59d5238af57e741f441e83e41ce3ec52e95a30ca
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
