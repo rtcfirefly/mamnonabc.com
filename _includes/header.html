@@ -2,11 +2,16 @@
 <div id="wrapper">
 
 <!-- Header -->
-<header id="header"{% if page.layout == "landing" %} class="alt style2"{% endif %}{% if page.layout == "home" %} class="alt"{% endif %}>
-	<a href="{{ "" | absolute_url }}/" class="logo"><strong>{{ site.title }}</strong> <span>{{ site.subtitle }}</span></a>
-	<nav>
+<header id="header"{% if page.layout == "landing" %} class="alt style2"{% endif %}{% if page.layout == "home" %} class="alt style2"{% endif %}>
+	<a href="{{ "" | absolute_url }}/" class="logo">
+		<!--span class="logo_img">
+			<img src="/assets/images/logo.png" alt="logo">
+		</span-->
+		<strong>{{ site.title }}</strong> <span>{{ site.subtitle }}</span></a>
+	<!--nav>
 		<a href="#menu">Menu</a>
-	</nav>
+	</nav-->
+	
 </header>
 
 <!-- Menu -->

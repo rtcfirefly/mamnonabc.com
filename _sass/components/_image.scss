@@ -10,6 +10,12 @@ img {
     max-width: 100%;
 }
 
+logo_img {
+    width: 100%; /* or any custom size */
+    height: 100%; 
+    object-fit: contain;
+}
+
 .image {
 		border: 0;
 		display: inline-block;
