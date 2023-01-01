@@ -207,7 +207,7 @@
 					$window.trigger('scroll');
 				});
 
-				$window.on('load', function() {
+				/*$window.on('load', function() {
 
 					$banner.scrollex({
 						bottom:		$header.height() + 10,
@@ -220,7 +220,7 @@
 						$window.triggerHandler('scroll');
 					}, 100);
 
-				});
+				});*/
 
 			}
 
