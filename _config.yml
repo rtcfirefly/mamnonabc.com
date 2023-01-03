@@ -6,12 +6,12 @@ description: ƯƠM MẦM TƯƠNG LAI
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: https://mamnonabc.com
 author:
-street_address: Lô 2 Đ. 23 Tháng 10 
-city: Vĩnh Hiệp, Nha Trang
+street_address: Toà Nhà 322-324 Đ. 23 Tháng 10 
+city: Vĩnh Điềm Trung, Nha Trang
 state: Khánh Hòa
 zip_code: 650000
 country: Vietnam
-phone: +842583891072
+phone: +84.258.3891072
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
